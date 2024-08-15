@@ -1,0 +1,21 @@
+{
+   "name": "portfolio-backend",
+   "version": "1.0.0",
+   "description": "Backend for portfolio",
+   "main": "server.js",
+   "proxy": "http://localhost:8888",
+   "scripts": {
+      "dev": "nodemon ./server.js"
+   },
+   "author": "Bhargav Suthar",
+   "license": "ISC",
+   "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2",
+      "mongoose": "^8.4.1"
+   },
+   "devDependencies": {
+      "nodemon": "^3.1.0"
+   }
+}
