@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Home from "./Home";
+import HomeAbout from "./HomeAbout";
 import Type from "./Type";
 
-function Hero() {
+function Home() {
    return (
-      <section>
+      <>
          <Container fluid className='home-section' id='home'>
             <Particle />
             <Container className='home-content'>
@@ -27,12 +27,6 @@ function Hero() {
                      <div style={{ padding: 50, textAlign: "left" }}>
                         <Type />
                      </div>
-
-                     <div style={{ padding: 50, textAlign: "left" }}>
-                        <Button variant='primary' href={"mailto:sutharbhargav1997@gmail.com"} target='_blank'>
-                           Le'ts Connect
-                        </Button>
-                     </div>
                   </Col>
 
                   <Col md={5} style={{ paddingBottom: 20 }}>
@@ -41,9 +35,9 @@ function Hero() {
                </Row>
             </Container>
          </Container>
-         <Home />
-      </section>
+         <HomeAbout />
+      </>
    );
 }
 
-export default Hero;
+export default Home;

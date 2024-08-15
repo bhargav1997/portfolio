@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/avatar.svg";
 
-function Home() {
+function HomeAbout() {
    return (
       <Container fluid className='home-about-section' id='about'>
          <Container>
@@ -107,4 +107,4 @@ function Home() {
    );
 }
 
-export default Home;
+export default HomeAbout;
