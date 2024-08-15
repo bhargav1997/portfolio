@@ -26,10 +26,13 @@ npm install
 
 Setup the .env file
 
+
+```env
 DBUSER=<your_username>
 DBPWD=<your_password>
 DBHOST=<your_host>
 ORIGIN=http://localhost:3000
+```
 
 ```bash
 npm run dev
