@@ -12,7 +12,7 @@ const router = require("./modules/router");
 const app = express();
 const port = process.env.PORT || "8888";
 
-const origin = process.env.ORIGIN;
+const ORIGIN = process.env.ORIGIN;
 
 // Use CORS middleware
 app.use(
