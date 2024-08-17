@@ -20,7 +20,7 @@ function ProjectCards(props) {
             variant='top'
             src={props.imgPath ? props.imgPath : defaultProjectImg}
             alt='card-img'
-            style={{ height: "200px", objectFit: "cover" }}
+            style={{ height: "200px", objectFit: "contain" }}
          />
          <Card.Body>
             <Card.Title>{props.title}</Card.Title>
