@@ -73,7 +73,7 @@ The application should now be running on `http://localhost:3000`.
 
 -  Ensure the backend server is running before starting the frontend development server.
 -  If you encounter any issues, check the console for error messages and ensure all dependencies are installed correctly.
--  
+
 
 Special thanks to [Soumyajit4419](https://github.com/soumyajit4419) for the inspiration and guidance in building this portfolio. Your work has been a great resource and motivation!
 
