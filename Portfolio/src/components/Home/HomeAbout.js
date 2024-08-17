@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { AiFillBehanceCircle, AiFillCodepenCircle, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
-import myImg from "../../Assets/avatar.svg";
+import Avatar from "../../Assets/Avatar-profile.png";
 
 function HomeAbout() {
    return (
@@ -38,7 +38,7 @@ function HomeAbout() {
                </Col>
                <Col md={4} className='myAvtar'>
                   <Tilt>
-                     <img src={myImg} className='img-fluid' alt='avatar' />
+                     <img src={Avatar} className='img-fluid' alt='avatar' />
                   </Tilt>
                </Col>
             </Row>
