@@ -37,7 +37,10 @@ function AboutCard() {
                   </li>
                </ul>
 
-               <p style={{ color: "rgb(155 126 172)" }}>"Strive to build things that make a difference!" </p>
+               <p style={{ color: "rgb(155 126 172)", textAlign: "left" }}>
+                  "Code is not just a set of instructions; it's a way to solve problems and create possibilities. Every line of code is a
+                  step towards innovation, and every challenge is an opportunity to grow."
+               </p>
                <footer className='blockquote-footer'>Bhargav Suthar</footer>
             </blockquote>
          </Card.Body>
